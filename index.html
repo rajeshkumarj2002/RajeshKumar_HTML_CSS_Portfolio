@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Personal Portfolio of Rajesh Kumar J - Final-Year Computer Science and Engineering Student at Sri Venkateswara Institute of Science and Technology. Full-Stack Web Developer & Software Engineer.">
+  <meta name="author" content="Rajesh Kumar J">
+  <title>Rajesh Kumar J | Computer Science &amp; Full-Stack Developer</title>
+
+  <!-- Modern Clean Typography: Inter & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Background Atmospheric Nebula Glows -->
+  <div class="ambient-glow ambient-glow-left" aria-hidden="true"></div>
+  <div class="ambient-glow ambient-glow-right" aria-hidden="true"></div>
+  <div class="ambient-sparkle sparkle-1" aria-hidden="true">✦</div>
+  <div class="ambient-sparkle sparkle-2" aria-hidden="true">✦</div>
+  <div class="ambient-sparkle sparkle-3" aria-hidden="true">✦</div>
+
+  <!-- ================= Floating Pill Navigation (Reference Style) ================= -->
+  <header class="floating-header">
+    <nav class="pill-nav" aria-label="Primary Navigation">
+      <ul class="pill-nav-list">
+        <li class="pill-brand-item">
+          <a href="#home" class="pill-brand-badge" title="Rajesh Kumar J - Home" aria-label="Rajesh Kumar J Home">RK</a>
+        </li>
+        <li><a href="#home" class="pill-nav-link">Home</a></li>
+        <li><a href="#projects" class="pill-nav-link">Projects</a></li>
+        <li><a href="#skills" class="pill-nav-link">Skills</a></li>
+        <li><a href="#about" class="pill-nav-link">About</a></li>
+        <li><a href="#contact" class="pill-nav-link">Contact</a></li>
+        <li class="pill-divider" aria-hidden="true"></li>
+        <li>
+          <!-- Interactive Theme Switch Button (No Page Jump • Pure CSS Toggle) -->
+          <label class="pill-icon-btn" aria-label="Toggle Light and Dark Theme" title="Toggle Light / Dark Mode">
+            <input type="checkbox" id="theme-toggle" class="theme-toggle-input" aria-label="Toggle Light and Dark Mode">
+            <!-- Moon Icon (Active in Dark Mode) -->
+            <svg class="theme-icon moon-icon" width="16" height="16" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+            <!-- Sun Icon (Active in Light Mode) -->
+            <svg class="theme-icon sun-icon" width="16" height="16" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+          </label>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ================= Main Content Container ================= -->
+  <main id="main-content">
+
+    <!-- ================= 1. Hero Section (Exact Match to Reference Style) ================= -->
+    <section id="home" class="hero-section">
+      <div class="container hero-container">
+
+        <div class="hero-text-wrap">
+          <!-- Student Profile Avatar & Live Status Pill (Design Direction Element) -->
+          <div class="hero-profile-badge">
+            <div class="profile-avatar-aura">
+              <span class="avatar-initials">RK</span>
+            </div>
+            <div class="profile-status-pill">
+              <span class="status-pulse-dot" aria-hidden="true"></span>
+              <span class="status-text">Available for Roles &bull; Final-Year CSE (2027)</span>
+            </div>
+          </div>
+
+          <!-- Big Bold Headline with Gradient Accent -->
+          <h1 class="hero-greeting">
+            Hey, I'm <span class="gradient-name">Rajesh.</span>
+          </h1>
+
+          <!-- Primary Introduction Narrative -->
+          <p class="hero-bio-lead">
+            I'm a <strong>Full-Stack Web Developer</strong> and final-year <strong>Computer Science &amp;
+              Engineering</strong> student at <strong>Sri Venkateswara Institute of Science and Technology</strong> who
+            loves building real-world software, web applications, and connected <strong>IoT systems.</strong>
+          </p>
+
+          <!-- Friendly Secondary Personal Hook -->
+          <p class="hero-bio-secondary">
+            When I'm not coding in Python or building responsive web interfaces, I'm usually solving data structure
+            challenges, tinkering with microcontrollers, or exploring new web technologies!
+          </p>
+
+          <!-- Action Pill Buttons (Solid White + Glassmorphic Outline) -->
+          <div class="hero-button-row">
+            <a href="#projects" class="btn-pill btn-pill-solid">
+              <span>View Projects</span>
+              <span class="btn-arrow" aria-hidden="true">&rarr;</span>
+            </a>
+            <a href="#about" class="btn-pill btn-pill-glass">
+              <span>More about me</span>
+            </a>
+          </div>
+
+          <!-- Quick Highlight Tags -->
+          <div class="hero-chips-bar">
+            <span class="quick-chip">🎓 B.E. Computer Science (2027)</span>
+            <span class="quick-chip">⭐ CGPA: 7.2 / 10</span>
+            <span class="quick-chip">💻 Python &bull; Django &bull; SQL &bull; HTML5 &bull; CSS3</span>
+            <span class="quick-chip">⚡ 100% Pure HTML5 &amp; CSS3</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= 2. Featured Projects Section (Cards with Vibrant Glows) ================= -->
+    <section id="projects" class="section projects-section">
+      <div class="container">
+
+        <div class="section-title-wrap">
+          <h2 class="section-heading gradient-heading">Projects</h2>
+          <p class="section-subheading">
+            Real software systems, web applications, and connected hardware developed with clean code.
+          </p>
+        </div>
+
+        <div class="projects-cards-grid">
+
+          <!-- Project Card 1: College Management System -->
+          <article class="modern-project-card">
+            <!-- Click-to-Zoom Trigger Label -->
+            <label for="zoom-proj-1" class="project-preview-wrap" title="Click to zoom preview" role="button"
+              tabindex="0">
+              <img src="images/college-management-preview.png"
+                alt="College Management System (MR Lead) Dashboard Preview" class="project-preview-img" width="800"
+                height="400" loading="lazy">
+              <div class="preview-badge-overlay">
+                <span class="banner-num">01</span>
+                <span class="banner-tag">FULL-STACK PORTAL</span>
+              </div>
+              <div class="zoom-indicator-pill" aria-hidden="true">
+                <span class="zoom-icon">🔍</span>
+                <span class="zoom-text">Click to Zoom</span>
+              </div>
+            </label>
+
+            <div class="project-card-content">
+              <h3 class="project-card-title">College Management System</h3>
+              <p class="project-card-desc">
+                A full-featured institutional management portal (MR Lead) built with Python, FastAPI/Django backend, and
+                responsive frontend. Features comprehensive dashboards for students, faculty, courses, attendance, fees,
+                exams, and academic OBE/CO-PO reporting.
+              </p>
+
+              <!-- Feature Bullets -->
+              <ul class="project-mini-features">
+                <li>Real-time college analytics &amp; attendance monitoring</li>
+                <li>Staff &amp; faculty payroll with digital deduction tracking</li>
+                <li>Course enrollment, timetable &amp; academic calendar sync</li>
+                <li>Outcome-Based Education (OBE) &amp; CO-PO mapping tools</li>
+              </ul>
+
+              <!-- Technologies Pills -->
+              <div class="tech-pill-wrap">
+                <span class="pill-tag">Angular</span>
+                <span class="pill-tag">Python</span>
+                <span class="pill-tag">FastAPI</span>
+                <span class="pill-tag">SQL</span>
+                <span class="pill-tag">HTML5 / CSS3</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project Card 2: Shift Clock -->
+          <article class="modern-project-card">
+            <!-- Click-to-Zoom Trigger Label -->
+            <label for="zoom-proj-2" class="project-preview-wrap" title="Click to zoom preview" role="button"
+              tabindex="0">
+              <img src="images/shift-clock-preview.png" alt="ShiftClock Native Kotlin & Web App Preview"
+                class="project-preview-img" width="800" height="400" loading="lazy">
+              <div class="preview-badge-overlay">
+                <span class="banner-num">02</span>
+                <span class="banner-tag">NATIVE APP &amp; WEB</span>
+              </div>
+              <div class="zoom-indicator-pill" aria-hidden="true">
+                <span class="zoom-icon">🔍</span>
+                <span class="zoom-text">Click to Zoom</span>
+              </div>
+            </label>
+
+            <div class="project-card-content">
+              <h3 class="project-card-title">Shift Clock &bull; Roster Alarm App</h3>
+              <p class="project-card-desc">
+                An intelligent shift schedule &amp; alarm manager engineered for rotating-shift workers. Calculates
+                wake-up alarms dynamically from rotating rosters (Morning, Afternoon, Night), 10-minute early alerts,
+                full-screen ringing overlay, and 100% offline SQLite persistence.
+              </p>
+
+              <!-- Feature Bullets -->
+              <ul class="project-mini-features">
+                <li>Dynamic 3-shift rotation cycles (6W + 2R rotating roster)</li>
+                <li>10-minute early wake-up reminder with snooze &amp; cancel</li>
+                <li>Over-lock-screen reliable alarm with full-screen overlay</li>
+                <li>Interactive web preview with simulated real alarm triggers</li>
+              </ul>
+
+              <!-- Technologies Pills -->
+              <div class="tech-pill-wrap">
+                <span class="pill-tag">Kotlin</span>
+                <span class="pill-tag">HTML5</span>
+                <span class="pill-tag">CSS3</span>
+                <span class="pill-tag">SQLite</span>
+                <span class="pill-tag">State UI</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project Card 3: Point & Control Smart Switch -->
+          <article class="modern-project-card">
+            <!-- Click-to-Zoom Trigger Label -->
+            <label for="zoom-proj-3" class="project-preview-wrap" title="Click to zoom preview" role="button"
+              tabindex="0">
+              <img src="images/smart-switch-preview.png"
+                alt="Point & Control Smart Switch - AI AR & IoT Digital Switch Preview" class="project-preview-img"
+                width="800" height="400" loading="lazy">
+              <div class="preview-badge-overlay">
+                <span class="banner-num">03</span>
+                <span class="banner-tag">AI AR &bull; IOT DIGITAL SWITCH</span>
+              </div>
+              <div class="zoom-indicator-pill" aria-hidden="true">
+                <span class="zoom-icon">🔍</span>
+                <span class="zoom-text">Click to Zoom</span>
+              </div>
+            </label>
+
+            <div class="project-card-content">
+              <h3 class="project-card-title">Point &amp; Control Smart Switch</h3>
+              <p class="project-card-desc">
+                An innovative AI-augmented reality smart switch system. Users point their smartphone camera at any
+                appliance (Light, Fan, AC, Mixer, Iron Box, Heater) to instantly summon an interactive holographic
+                switch with real-time MQTT telemetry and power control.
+              </p>
+
+              <!-- Feature Bullets -->
+              <ul class="project-mini-features">
+                <li>YOLO-AR 60 FPS real-time appliance detection &amp; overlay</li>
+                <li>Live webcam feed with spatial room targeting (Kitchen, Living)</li>
+                <li>Sub-15ms MQTT message ping with live watt load tracking</li>
+                <li>Brightness dimming slider &amp; one-touch master power toggle</li>
+              </ul>
+
+              <!-- Technologies Pills -->
+              <div class="tech-pill-wrap">
+                <span class="pill-tag">YOLO-AR</span>
+                <span class="pill-tag">IoT MQTT</span>
+                <span class="pill-tag">ESP32</span>
+                <span class="pill-tag">HTML5</span>
+                <span class="pill-tag">CSS3</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- ================= Lightbox Modals for Click-to-Zoom (Pure CSS Zero JS) ================= -->
+
+        <!-- Project 1 Zoom Lightbox Modal -->
+        <input type="checkbox" id="zoom-proj-1" class="zoom-modal-toggle"
+          aria-label="Toggle zoom preview for College Management System">
+        <div id="modal-proj-1" class="zoom-lightbox-modal" role="dialog" aria-modal="true"
+          aria-label="Expanded preview: College Management System">
+          <label for="zoom-proj-1" class="zoom-backdrop-dismiss" aria-label="Close zoom preview"
+            title="Click anywhere to close"></label>
+          <div class="zoom-modal-card">
+            <div class="zoom-modal-header">
+              <div class="zoom-modal-header-left">
+                <div class="preview-badge-overlay modal-badge">
+                  <span class="banner-num">01</span>
+                  <span class="banner-tag">FULL-STACK PORTAL</span>
+                </div>
+                <h3 class="zoom-modal-title">College Management System (MR Lead)</h3>
+              </div>
+              <label for="zoom-proj-1" class="zoom-close-btn" aria-label="Close Preview"
+                title="Close (✕)">&times;</label>
+            </div>
+            <div class="zoom-modal-body">
+              <img src="images/college-management-preview.png"
+                alt="College Management System (MR Lead) Full Dashboard Preview" class="zoom-enlarged-img">
+            </div>
+            <div class="zoom-modal-footer">
+              <span class="zoom-footer-note">✦ Real Dashboard Preview &bull; Python FastAPI / Django &bull; Angular Frontend</span>
+              <label for="zoom-proj-1" class="zoom-dismiss-pill">Close Preview &times;</label>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 Zoom Lightbox Modal -->
+        <input type="checkbox" id="zoom-proj-2" class="zoom-modal-toggle"
+          aria-label="Toggle zoom preview for Shift Clock">
+        <div id="modal-proj-2" class="zoom-lightbox-modal" role="dialog" aria-modal="true"
+          aria-label="Expanded preview: Shift Clock">
+          <label for="zoom-proj-2" class="zoom-backdrop-dismiss" aria-label="Close zoom preview"
+            title="Click anywhere to close"></label>
+          <div class="zoom-modal-card">
+            <div class="zoom-modal-header">
+              <div class="zoom-modal-header-left">
+                <div class="preview-badge-overlay modal-badge">
+                  <span class="banner-num">02</span>
+                  <span class="banner-tag">NATIVE APP &amp; WEB</span>
+                </div>
+                <h3 class="zoom-modal-title">Shift Clock &bull; Roster Alarm App</h3>
+              </div>
+              <label for="zoom-proj-2" class="zoom-close-btn" aria-label="Close Preview"
+                title="Close (✕)">&times;</label>
+            </div>
+            <div class="zoom-modal-body">
+              <img src="images/shift-clock-preview.png" alt="Shift Clock Native Kotlin & Web App Full Preview"
+                class="zoom-enlarged-img">
+            </div>
+            <div class="zoom-modal-footer">
+              <span class="zoom-footer-note">✦ Real Native Kotlin &bull; 6W+2R Rotating Shift Cycles &bull; Over-Lock Alarm</span>
+              <label for="zoom-proj-2" class="zoom-dismiss-pill">Close Preview &times;</label>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 Zoom Lightbox Modal -->
+        <input type="checkbox" id="zoom-proj-3" class="zoom-modal-toggle"
+          aria-label="Toggle zoom preview for Smart Switch">
+        <div id="modal-proj-3" class="zoom-lightbox-modal" role="dialog" aria-modal="true"
+          aria-label="Expanded preview: Point & Control Smart Switch">
+          <label for="zoom-proj-3" class="zoom-backdrop-dismiss" aria-label="Close zoom preview"
+            title="Click anywhere to close"></label>
+          <div class="zoom-modal-card">
+            <div class="zoom-modal-header">
+              <div class="zoom-modal-header-left">
+                <div class="preview-badge-overlay modal-badge">
+                  <span class="banner-num">03</span>
+                  <span class="banner-tag">AI AR &bull; IOT DIGITAL SWITCH</span>
+                </div>
+                <h3 class="zoom-modal-title">Point &amp; Control Smart Switch</h3>
+              </div>
+              <label for="zoom-proj-3" class="zoom-close-btn" aria-label="Close Preview"
+                title="Close (✕)">&times;</label>
+            </div>
+            <div class="zoom-modal-body">
+              <img src="images/smart-switch-preview.png" alt="Point & Control Smart Switch Full Preview"
+                class="zoom-enlarged-img">
+            </div>
+            <div class="zoom-modal-footer">
+              <span class="zoom-footer-note">✦ Real YOLO-AR Detection &bull; ESP32 MQTT Telemetry &bull; Augmented Reality UI</span>
+              <label for="zoom-proj-3" class="zoom-dismiss-pill">Close Preview &times;</label>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= 3. Technical Skills Section (Dashboard Cards Inspired by Reference 2) ================= -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+
+        <div class="section-title-wrap">
+          <h2 class="section-heading gradient-heading">Technical Skills</h2>
+          <p class="section-subheading">
+            Core programming languages, full-stack web technologies, computer science fundamentals, and developer tools.
+          </p>
+        </div>
+
+        <div class="dashboard-skills-grid">
+
+          <!-- Card 1: Frontend & Web -->
+          <div class="dashboard-card">
+            <div class="card-icon-title">
+              <span class="card-category-icon">&lt;/&gt;</span>
+              <h3 class="card-category-name">Frontend &amp; Web</h3>
+            </div>
+
+            <div class="skill-meter-list">
+              <div class="skill-meter-item">
+                <div class="meter-info">
+                  <span class="meter-name">HTML5 Semantics</span>
+                  <span class="meter-score">Accessible &bull; SEO</span>
+                </div>
+                <div class="meter-bar-track">
+                  <div class="meter-bar-fill fill-purple width-95"></div>
+                </div>
+              </div>
+
+              <div class="skill-meter-item">
+                <div class="meter-info">
+                  <span class="meter-name">CSS3 Styling &amp; Tokens</span>
+                  <span class="meter-score">Variables &bull; Effects</span>
+                </div>
+                <div class="meter-bar-track">
+                  <div class="meter-bar-fill fill-purple width-92"></div>
+                </div>
+              </div>
+
+              <div class="skill-meter-item">
+                <div class="meter-info">
+                  <span class="meter-name">Flexbox &amp; CSS Grid</span>
+                  <span class="meter-score">Modern Layouts</span>
+                </div>
+                <div class="meter-bar-track">
+                  <div class="meter-bar-fill fill-purple width-90"></div>
+                </div>
+              </div>
+
+              <div class="skill-meter-item">
+                <div class="meter-info">
+                  <span class="meter-name">Angular &bull; SPA</span>
+                  <span class="meter-score">Components</span>
+                </div>
+                <div class="meter-bar-track">
+                  <div class="meter-bar-fill fill-purple width-80"></div>
+                </div>
+              </div>
+
+              <div class="skill-meter-item">
+                <div class="meter-info">
+                  <span class="meter-name">Responsive Web Design</span>
+                  <span class="meter-score">Mobile-First</span>
+                </div>
+                <div class="meter-bar-track">
+                  <div class="meter-bar-fill fill-purple width-95"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: Backend & Databases -->
+          <div class="dashboard-card">
+            <div class="card-icon-title">
+              <span class="card-category-icon">🗄️</span>
+              <h3 class="card-category-name">Backend &amp; Databases</h3>
+            </div>
+
+            <div class="skill-meter-list">
+              <div class="skill-meter-item">
+                <div class="meter-info">
+                  <span class="meter-name">Python</span>
+                  <span class="meter-score">Core Logic &bull; OOP</span>
+                </div>
+                <div class="meter-bar-track">
+                  <div class="meter-bar-fill fill-cyan width-92"></div>
+                </div>
+              </div>
+
+              <div class="skill-meter-item">
+                <div class="meter-info">
+                  <span class="meter-name">Django Framework</span>
+                  <span class="meter-score">MVC &bull; ORM &bull; Auth</span>
+                </div>
+                <div class="meter-bar-track">
+                  <div class="meter-bar-fill fill-cyan width-88"></div>
+                </div>
+              </div>
+
+              <div class="skill-meter-item">
+                <div class="meter-info">
+                  <span class="meter-name">SQL Database</span>
+                  <span class="meter-score">Queries &bull; Joins &bull; DDL</span>
+                </div>
+                <div class="meter-bar-track">
+                  <div class="meter-bar-fill fill-cyan width-88"></div>
+                </div>
+              </div>
+
+              <div class="skill-meter-item">
+                <div class="meter-info">
+                  <span class="meter-name">Database Modeling</span>
+                  <span class="meter-score">Normalization &bull; ER</span>
+                </div>
+                <div class="meter-bar-track">
+                  <div class="meter-bar-fill fill-cyan width-85"></div>
+                </div>
+              </div>
+
+              <div class="skill-meter-item">
+                <div class="meter-info">
+                  <span class="meter-name">RESTful APIs</span>
+                  <span class="meter-score">HTTP &bull; JSON Payloads</span>
+                </div>
+                <div class="meter-bar-track">
+                  <div class="meter-bar-fill fill-cyan width-84"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: Programming & Computer Science -->
+          <div class="dashboard-card">
+            <div class="card-icon-title">
+              <span class="card-category-icon">🧠</span>
+              <h3 class="card-category-name">Core Computer Science</h3>
+            </div>
+
+            <div class="skill-meter-list">
+              <div class="skill-meter-item">
+                <div class="meter-info">
+                  <span class="meter-name">Java</span>
+                  <span class="meter-score">OOP &bull; Collections</span>
+                </div>
+                <div class="meter-bar-track">
+                  <div class="meter-bar-fill fill-pink width-88"></div>
+                </div>
+              </div>
+
+              <div class="skill-meter-item">
+                <div class="meter-info">
+                  <span class="meter-name">C &amp; C++</span>
+                  <span class="meter-score">Pointers &bull; Firmware</span>
+                </div>
+                <div class="meter-bar-track">
+                  <div class="meter-bar-fill fill-pink width-86"></div>
+                </div>
+              </div>
+
+              <div class="skill-meter-item">
+                <div class="meter-info">
+                  <span class="meter-name">Data Structures &amp; Algos</span>
+                  <span class="meter-score">Trees, Graphs, Search</span>
+                </div>
+                <div class="meter-bar-track">
+                  <div class="meter-bar-fill fill-pink width-85"></div>
+                </div>
+              </div>
+
+              <div class="skill-meter-item">
+                <div class="meter-info">
+                  <span class="meter-name">Operating Systems</span>
+                  <span class="meter-score">Processes &bull; Threads</span>
+                </div>
+                <div class="meter-bar-track">
+                  <div class="meter-bar-fill fill-pink width-82"></div>
+                </div>
+              </div>
+
+              <div class="skill-meter-item">
+                <div class="meter-info">
+                  <span class="meter-name">Computer Networks</span>
+                  <span class="meter-score">TCP/IP &bull; Sockets</span>
+                </div>
+                <div class="meter-bar-track">
+                  <div class="meter-bar-fill fill-pink width-84"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4: IoT & Developer Workflow -->
+          <div class="dashboard-card">
+            <div class="card-icon-title">
+              <span class="card-category-icon">⚡</span>
+              <h3 class="card-category-name">IoT &amp; Developer Tools</h3>
+            </div>
+
+            <div class="skill-meter-list">
+              <div class="skill-meter-item">
+                <div class="meter-info">
+                  <span class="meter-name">ESP32 / Microcontrollers</span>
+                  <span class="meter-score">Embedded C++</span>
+                </div>
+                <div class="meter-bar-track">
+                  <div class="meter-bar-fill fill-orange width-88"></div>
+                </div>
+              </div>
+
+              <div class="skill-meter-item">
+                <div class="meter-info">
+                  <span class="meter-name">MQTT &amp; HTTP Protocols</span>
+                  <span class="meter-score">IoT Pub/Sub</span>
+                </div>
+                <div class="meter-bar-track">
+                  <div class="meter-bar-fill fill-orange width-90"></div>
+                </div>
+              </div>
+
+              <div class="skill-meter-item">
+                <div class="meter-info">
+                  <span class="meter-name">Git &amp; GitHub</span>
+                  <span class="meter-score">Version Control</span>
+                </div>
+                <div class="meter-bar-track">
+                  <div class="meter-bar-fill fill-orange width-92"></div>
+                </div>
+              </div>
+
+              <div class="skill-meter-item">
+                <div class="meter-info">
+                  <span class="meter-name">VS Code &amp; Extensions</span>
+                  <span class="meter-score">Productivity Setup</span>
+                </div>
+                <div class="meter-bar-track">
+                  <div class="meter-bar-fill fill-orange width-95"></div>
+                </div>
+              </div>
+
+              <div class="skill-meter-item">
+                <div class="meter-info">
+                  <span class="meter-name">Chrome DevTools</span>
+                  <span class="meter-score">DOM &amp; CSS Debugging</span>
+                </div>
+                <div class="meter-bar-track">
+                  <div class="meter-bar-fill fill-orange width-90"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= 4. About Me & Education Section ================= -->
+    <section id="about" class="section about-section">
+      <div class="container">
+
+        <div class="section-title-wrap">
+          <h2 class="section-heading gradient-heading">About Me</h2>
+          <p class="section-subheading">
+            Computer Science undergraduate at Sri Venkateswara Institute of Science and Technology.
+          </p>
+        </div>
+
+        <div class="about-cards-layout">
+
+          <!-- Column 1: Personal Biography -->
+          <article class="about-glass-card bio-card">
+            <h3 class="about-card-title">My Journey in Tech</h3>
+
+            <p>
+              I am a final-year Computer Science and Engineering student at <strong>Sri Venkateswara Institute of
+                Science and Technology</strong> with a passion for building full-stack web solutions and practical
+              hardware-software systems.
+            </p>
+
+            <p>
+              I enjoy understanding how things work under the hood—from browser DOM rendering and responsive CSS
+              mechanics to Python/Django MVC pipelines, SQL relational structures, and embedded microcontroller
+              protocols.
+            </p>
+
+            <p>
+              My goal is to design clean, high-performance, and intuitive software applications that solve tangible
+              problems for users, academic institutions, and modern organizations.
+            </p>
+
+            <div class="about-stat-row">
+              <div class="stat-box">
+                <span class="stat-number">2027</span>
+                <span class="stat-label">Graduation Year</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-number">7.2</span>
+                <span class="stat-label">Current CGPA</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-number">3+</span>
+                <span class="stat-label">Real Projects</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-number">100%</span>
+                <span class="stat-label">HTML5 &amp; CSS3</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Column 2: Formal Education & Academic Credentials -->
+          <article class="about-glass-card education-card">
+            <h3 class="about-card-title">Education &amp; Credentials</h3>
+
+            <div class="edu-timeline-item">
+              <div class="edu-timeline-dot"></div>
+              <div class="edu-timeline-content">
+                <span class="edu-year-badge">2023 &ndash; 2027 &bull; Final Year</span>
+                <h4 class="edu-item-title">B.E. Computer Science and Engineering</h4>
+                <p class="edu-item-inst">Sri Venkateswara Institute of Science and Technology</p>
+                <p class="edu-item-cgpa">Cumulative GPA: <strong>7.2 / 10</strong></p>
+                <p class="edu-item-desc">
+                  Core Coursework: Data Structures &amp; Algorithms, Object-Oriented Programming (Java/C++), Database
+                  Management Systems (SQL), Operating Systems, Web Technologies, Computer Networks, and Software
+                  Engineering.
+                </p>
+              </div>
+            </div>
+
+            <div class="edu-timeline-item">
+              <div class="edu-timeline-dot"></div>
+              <div class="edu-timeline-content">
+                <span class="edu-year-badge">Schooling</span>
+                <h4 class="edu-item-title">Secondary &amp; Higher Secondary</h4>
+                <ul class="school-scores-list">
+                  <li><strong>Class X (SSLC):</strong> 86%</li>
+                  <li><strong>Class XII (HSC):</strong> 68%</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= 5. Contact Section ================= -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+
+        <div class="section-title-wrap">
+          <h2 class="section-heading gradient-heading">Get in Touch</h2>
+          <p class="section-subheading">
+            Open for software developer roles, full-stack web opportunities, and engineering collaborations.
+          </p>
+        </div>
+
+        <div class="contact-glass-container">
+
+          <!-- Contact Left: Channels -->
+          <div class="contact-channels-column">
+            <h3 class="channels-title">Let's Connect</h3>
+            <p class="channels-text">
+              Have an opening, an interesting project idea, or internship evaluation feedback? Feel free to reach out
+              directly through any of these channels!
+            </p>
+
+            <ul class="channels-list">
+              <li class="channel-item">
+                <div class="channel-icon-circle">✉️</div>
+                <div class="channel-text">
+                  <span class="channel-label">Email Address</span>
+                  <a href="mailto:rajeshkumarj2002@gmail.com" class="channel-link">rajeshkumarj2002@gmail.com</a>
+                </div>
+              </li>
+
+              <li class="channel-item">
+                <div class="channel-icon-circle">📞</div>
+                <div class="channel-text">
+                  <span class="channel-label">Phone &amp; WhatsApp</span>
+                  <a href="tel:+918220638415" class="channel-link">+91 8220638415</a>
+                </div>
+              </li>
+
+              <li class="channel-item">
+                <div class="channel-icon-circle">🐙</div>
+                <div class="channel-text">
+                  <span class="channel-label">GitHub Profile</span>
+                  <a href="https://github.com/rajeshkumarj2002" target="_blank" rel="noopener noreferrer"
+                    class="channel-link">github.com/rajeshkumarj2002</a>
+                </div>
+              </li>
+
+              <li class="channel-item">
+                <div class="channel-icon-circle">📍</div>
+                <div class="channel-text">
+                  <span class="channel-label">Current Location</span>
+                  <span class="channel-static">Tamil Nadu, India</span>
+                </div>
+              </li>
+            </ul>
+
+            <div class="contact-status-card">
+              <span class="status-indicator-ping"></span>
+              <div>
+                <strong>Status: Open for Opportunities</strong>
+                <p>Available for Software Engineering, Full-Stack Web Development, and Graduate Roles.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Right: Visual Demo Form -->
+          <div class="contact-form-column">
+            <h3 class="channels-title">Send a Message</h3>
+
+            <!-- Academic Rubric Disclaimer -->
+            <div class="academic-rubric-notice" role="note">
+              <span class="notice-icon">ℹ️</span>
+              <p>
+                <strong>Internship Rubric Notice:</strong> This contact form is styled for frontend presentation as part
+                of the HTML5 &amp; CSS3 Internship project. In accordance with guidelines, no backend script is
+                attached.
+              </p>
+            </div>
+
+            <form action="#contact" method="get" class="modern-contact-form">
+              <div class="form-row-duo">
+                <div class="form-field-group">
+                  <label for="form-name" class="field-label">Your Name <span class="req">*</span></label>
+                  <input type="text" id="form-name" name="name" class="field-input"
+                    placeholder="e.g. John Doe / Recruiter" required>
+                </div>
+
+                <div class="form-field-group">
+                  <label for="form-email" class="field-label">Email Address <span class="req">*</span></label>
+                  <input type="email" id="form-email" name="email" class="field-input"
+                    placeholder="e.g. recruiter@example.com" required>
+                </div>
+              </div>
+
+              <div class="form-field-group">
+                <label for="form-subject" class="field-label">Subject <span class="req">*</span></label>
+                <input type="text" id="form-subject" name="subject" class="field-input"
+                  placeholder="e.g. Software Developer Opportunity" required>
+              </div>
+
+              <div class="form-field-group">
+                <label for="form-message" class="field-label">Message <span class="req">*</span></label>
+                <textarea id="form-message" name="message" class="field-textarea" rows="4"
+                  placeholder="Write your message here..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn-pill btn-pill-solid btn-full-width">
+                <span>Send Message (Visual Demo)</span>
+                <span class="btn-arrow">&rarr;</span>
+              </button>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= 6. Footer Section ================= -->
+  <footer class="modern-footer">
+    <div class="container footer-content-wrap">
+
+      <div class="footer-left">
+        <a href="#home" class="footer-logo">
+          <span class="logo-text">Rajesh Kumar J</span>
+        </a>
+        <p class="footer-desc">
+          B.E. Computer Science &amp; Engineering Student &bull; Sri Venkateswara Institute of Science and Technology.
+        </p>
+        <span class="footer-compliance-pill">🛡️ 100% Pure HTML5 &amp; CSS3 &bull; No JavaScript</span>
+      </div>
+
+      <div class="footer-links-group">
+        <h4 class="footer-links-title">Quick Links</h4>
+        <ul class="footer-links-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-back-to-top">
+        <a href="#home" class="back-top-pill" aria-label="Back to Top">
+          <span>&uarr;</span> Back to Top
+        </a>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom-line">
+      <div class="container bottom-line-flex">
+        <p class="copyright-note">
+          &copy; 2026 Rajesh Kumar J. All rights reserved. EWB HTML &amp; CSS Internship Project.
+        </p>
+        <p class="built-note">
+          Crafted with semantic HTML5 &amp; modern CSS3.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
